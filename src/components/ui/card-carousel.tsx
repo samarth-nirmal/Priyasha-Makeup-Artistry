@@ -80,7 +80,7 @@ export const CardCarousel: React.FC<CarouselProps> = ({
                 grabCursor={true}
                 centeredSlides={true}
                 loop={true}
-                slidesPerView={"auto"}
+                slidesPerView={3}
                 coverflowEffect={{
                   rotate: 0,
                   stretch: 10,
