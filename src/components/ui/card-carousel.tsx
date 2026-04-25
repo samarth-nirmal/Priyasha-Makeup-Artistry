@@ -40,8 +40,8 @@ export const CardCarousel: React.FC<CarouselProps> = ({
   .swiper-slide {
     background-position: center;
     background-size: cover;
-    width: 320px;
-    height: 480px;
+    width: 360px;
+    height: 520px;
   }
   
   .swiper-slide img {
@@ -80,7 +80,7 @@ export const CardCarousel: React.FC<CarouselProps> = ({
                 grabCursor={true}
                 centeredSlides={true}
                 loop={true}
-                slidesPerView={3}
+                slidesPerView={"auto"}
                 coverflowEffect={{
                   rotate: 0,
                   stretch: 10,
@@ -91,9 +91,9 @@ export const CardCarousel: React.FC<CarouselProps> = ({
                 navigation={
                   showNavigation
                     ? {
-                        nextEl: ".swiper-button-next",
-                        prevEl: ".swiper-button-prev",
-                      }
+                      nextEl: ".swiper-button-next",
+                      prevEl: ".swiper-button-prev",
+                    }
                     : undefined
                 }
                 modules={[EffectCoverflow, Autoplay, Pagination, Navigation]}
