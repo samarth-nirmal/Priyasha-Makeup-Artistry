@@ -30,7 +30,7 @@ export default function Navbar() {
   return (
     <nav
       className={cn(
-        'fixed top-0 left-0 w-full h-[72px] z-[5000] transition-all duration-500 flex items-center justify-between px-6 md:px-16',
+        'fixed top-0 left-0 w-full h-[72px] z-[5000] transition-all duration-500 flex items-center justify-between px-6 md:px-16 2xl:px-32',
         isScrolled ? 'bg-ivory shadow-soft' : 'bg-transparent border-b border-champagne'
       )}
       style={isScrolled ? { boxShadow: '0 4px 30px rgba(0, 0, 0, 0.03)' } : {}}

@@ -22,9 +22,9 @@ export default function Services() {
   return (
     <section id="services" className="bg-ivory section-padding">
       <div className="max-w-[1280px] mx-auto">
-        
+
         {/* Header */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.2 }}
@@ -61,10 +61,10 @@ export default function Services() {
               <p className="text-[14px] font-light text-muted leading-[1.8] mb-8">
                 {service.description}
               </p>
-              
+
               <div className="mt-auto pt-8 border-t border-champagne/50 w-full">
-                <a 
-                  href="#contact" 
+                <a
+                  href="#contact"
                   className="text-[13px] font-medium text-gold flex items-center group-hover:underline"
                 >
                   Enquire for Details →
