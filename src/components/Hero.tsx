@@ -38,7 +38,7 @@ export default function Hero() {
       <div className="absolute inset-0 w-full h-full md:hidden bg-[url('/Priyasha-Makeup-Artistry/Assets/free-photo-of-bride-and-groom-in-traditional-wedding-clothes-embracing-in-a-park.jpeg')] bg-cover bg-center z-0" />
       <div className="absolute inset-0 w-full h-full md:hidden bg-ivory/70 backdrop-blur-[2px] z-0" />
 
-      <div className="max-w-[1440px] mx-auto grid grid-cols-1 md:grid-cols-[55%_45%] w-full relative z-10">
+      <div className="max-w-[1440px] mx-auto grid grid-cols-1 md:grid-cols-2 w-full relative z-10">
 
         {/* Left Column */}
         <div className="px-6 md:px-12 lg:px-20 py-12 md:py-16 flex flex-col justify-center border-r border-burgundy/5 order-2 md:order-1">
