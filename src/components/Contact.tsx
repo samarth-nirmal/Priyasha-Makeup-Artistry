@@ -48,14 +48,24 @@ export default function Contact() {
               <Mail size={18} className="text-gold" />
               <span className="text-[14px] font-sans">hello@Priyasha.in</span>
             </div>
-            <div className="flex items-center gap-4 text-champagne">
+            <div className="flex items-center gap-4 text-champagne hover:text-gold transition-colors cursor-pointer">
               <Instagram size={18} className="text-gold" />
-              <span className="text-[14px] font-sans">@Priyashatariya_makeupartist</span>
+              <a href="https://www.instagram.com/priyashakatariya_makeupartist/" target="_blank" rel="noreferrer" className="text-[14px] font-sans">
+                @priyashakatariya_makeupartist
+              </a>
             </div>
           </div>
 
           <div className="mt-12 flex gap-4">
-            {[Instagram, Facebook, Youtube].map((Icon, i) => (
+            <a
+              href="https://www.instagram.com/priyashakatariya_makeupartist/"
+              target="_blank"
+              rel="noreferrer"
+              className="w-10 h-10 rounded-full border border-champagne/30 flex items-center justify-center text-champagne hover:bg-champagne/10 transition-colors"
+            >
+              <Instagram size={18} />
+            </a>
+            {[Facebook, Youtube].map((Icon, i) => (
               <a
                 key={i}
                 href="#"

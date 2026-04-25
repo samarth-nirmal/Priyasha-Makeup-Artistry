@@ -42,7 +42,11 @@ export default function Footer() {
           <ul className="mt-8 flex flex-col gap-4">
             <li className="text-[13px] font-light text-champagne/60">+91 98765 43210</li>
             <li className="text-[13px] font-light text-champagne/60">hello@Priyasha.in</li>
-            <li className="text-[13px] font-light text-champagne/60">@Priyashatariya_makeupartist</li>
+            <li className="text-[13px] font-light text-champagne/60 hover:text-champagne transition-colors">
+              <a href="https://www.instagram.com/priyashakatariya_makeupartist/" target="_blank" rel="noreferrer">
+                @priyashakatariya_makeupartist
+              </a>
+            </li>
           </ul>
         </div>
       </motion.div>

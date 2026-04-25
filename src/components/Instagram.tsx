@@ -23,7 +23,7 @@ export default function Instagram() {
             Moments from the studio.
           </h2>
           <p className="mt-4 text-[14px] font-normal text-muted">
-            @Priyashatariya_makeupartist on Instagram
+            @priyashakatariya_makeupartist on Instagram
           </p>
         </motion.div>
 
@@ -79,7 +79,7 @@ export default function Instagram() {
           className="mt-12"
         >
           <a
-            href="https://www.instagram.com/Priyashatariya_makeupartist/"
+            href="https://www.instagram.com/priyashakatariya_makeupartist/"
             target="_blank"
             rel="noreferrer"
             className="btn-gold px-8 py-3.5 text-[13px]"
