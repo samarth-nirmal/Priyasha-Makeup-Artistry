@@ -36,12 +36,8 @@ export default function Navbar() {
       style={isScrolled ? { boxShadow: '0 4px 30px rgba(0, 0, 0, 0.03)' } : {}}
     >
       {/* Logo */}
-      <a href="#" className="flex items-center group h-[40px] md:h-[45px]">
-        <img 
-          src="/Priyasha-Makeup-Artistry/Assets/logo.png" 
-          alt="Priyasha Katariya Makeup" 
-          className="h-full w-auto object-contain object-left"
-        />
+      <a href="#" className="flex items-center group">
+        <span className="text-burgundy font-display font-medium text-[22px] tracking-[0.05em] uppercase">Priyasha Katariya</span>
       </a>
 
       {/* Desktop Nav */}
