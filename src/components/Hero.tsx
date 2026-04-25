@@ -3,15 +3,15 @@ import { useEffect, useState } from 'react';
 import { CardCarousel } from './ui/card-carousel';
 
 const heroImages = [
-  '/Priyasha-Makeup-Artistry/Assets/gallary/1.jpg',
-  '/Priyasha-Makeup-Artistry/Assets/gallary/2.jpg',
-  '/Priyasha-Makeup-Artistry/Assets/gallary/3.jpg',
-  '/Priyasha-Makeup-Artistry/Assets/gallary/4.jpg',
-  '/Priyasha-Makeup-Artistry/Assets/gallary/5.jpg',
-  '/Priyasha-Makeup-Artistry/Assets/gallary/6.jpg',
-  '/Priyasha-Makeup-Artistry/Assets/gallary/7.jpg',
-  '/Priyasha-Makeup-Artistry/Assets/gallary/8.jpg',
-  '/Priyasha-Makeup-Artistry/Assets/gallary/9.jpg',
+  '/Priyasha-Makeup-Artistry/Assets/Gallary/1.jpg',
+  '/Priyasha-Makeup-Artistry/Assets/Gallary/2.jpg',
+  '/Priyasha-Makeup-Artistry/Assets/Gallary/3.jpg',
+  '/Priyasha-Makeup-Artistry/Assets/Gallary/4.jpg',
+  '/Priyasha-Makeup-Artistry/Assets/Gallary/5.jpg',
+  '/Priyasha-Makeup-Artistry/Assets/Gallary/6.jpg',
+  '/Priyasha-Makeup-Artistry/Assets/Gallary/7.jpg',
+  '/Priyasha-Makeup-Artistry/Assets/Gallary/8.jpg',
+  '/Priyasha-Makeup-Artistry/Assets/Gallary/9.jpg',
 ];
 
 function Counter({ value, duration = 2, suffix = "" }: { value: number, duration?: number, suffix?: string }) {

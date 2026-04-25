@@ -11,7 +11,7 @@ import { cn } from "../../lib/utils";
 const PHOTOS = [
   {
     id: "photo-1",
-    src: "/Priyasha-Makeup-Artistry/Assets/gallary/1.jpg",
+    src: "/Priyasha-Makeup-Artistry/Assets/Gallary/1.jpg",
     alt: "Indian Bridal Portrait",
     rotation: -15,
     x: -90,
@@ -20,7 +20,7 @@ const PHOTOS = [
   },
   {
     id: "photo-2",
-    src: "/Priyasha-Makeup-Artistry/Assets/gallary/3.jpg",
+    src: "/Priyasha-Makeup-Artistry/Assets/Gallary/3.jpg",
     alt: "Bridal Glow",
     rotation: -3,
     x: -10,
@@ -29,7 +29,7 @@ const PHOTOS = [
   },
   {
     id: "photo-3",
-    src: "/Priyasha-Makeup-Artistry/Assets/gallary/2.jpg",
+    src: "/Priyasha-Makeup-Artistry/Assets/Gallary/2.jpg",
     alt: "Traditional Artistry",
     rotation: 12,
     x: 75,
@@ -38,32 +38,32 @@ const PHOTOS = [
   },
   {
     id: "photo-4",
-    src: "/Priyasha-Makeup-Artistry/Assets/gallary/4.jpg",
+    src: "/Priyasha-Makeup-Artistry/Assets/Gallary/4.jpg",
     alt: "Bridal Detail",
   },
   {
     id: "photo-5",
-    src: "/Priyasha-Makeup-Artistry/Assets/gallary/5.jpg",
+    src: "/Priyasha-Makeup-Artistry/Assets/Gallary/5.jpg",
     alt: "Editorial Look",
   },
   {
     id: "photo-6",
-    src: "/Priyasha-Makeup-Artistry/Assets/gallary/6.jpg",
+    src: "/Priyasha-Makeup-Artistry/Assets/Gallary/6.jpg",
     alt: "Indian Wedding Detail",
   },
   {
     id: "photo-7",
-    src: "/Priyasha-Makeup-Artistry/Assets/gallary/7.jpg",
+    src: "/Priyasha-Makeup-Artistry/Assets/Gallary/7.jpg",
     alt: "Soft Glam",
   },
   {
     id: "photo-8",
-    src: "/Priyasha-Makeup-Artistry/Assets/gallary/8.jpg",
+    src: "/Priyasha-Makeup-Artistry/Assets/Gallary/8.jpg",
     alt: "Bridal Prep",
   },
   {
     id: "photo-9",
-    src: "/Priyasha-Makeup-Artistry/Assets/gallary/9.jpg",
+    src: "/Priyasha-Makeup-Artistry/Assets/Gallary/9.jpg",
     alt: "Radiant Smile",
   },
 ];
