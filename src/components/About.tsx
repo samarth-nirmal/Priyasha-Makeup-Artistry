@@ -15,7 +15,7 @@ export default function About() {
         >
           <div className="aspect-square relative overflow-hidden bg-champagne/20">
             <img
-              src="/Assets/Priyasha.jpg"
+              src="/Priyasha-Makeup-Artistry/Assets/Priyasha.jpg"
               alt="Priyasha Katariya - Professional Makeup Artist"
               className="w-full h-full object-cover object-top"
             />

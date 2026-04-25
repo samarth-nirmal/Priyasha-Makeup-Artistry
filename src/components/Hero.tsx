@@ -3,15 +3,15 @@ import { useEffect, useState } from 'react';
 import { CardCarousel } from './ui/card-carousel';
 
 const heroImages = [
-  '/Assets/gallary/1.jpg',
-  '/Assets/gallary/2.jpg',
-  '/Assets/gallary/3.jpg',
-  '/Assets/gallary/4.jpg',
-  '/Assets/gallary/5.jpg',
-  '/Assets/gallary/6.jpg',
-  '/Assets/gallary/7.jpg',
-  '/Assets/gallary/8.jpg',
-  '/Assets/gallary/9.jpg',
+  '/Priyasha-Makeup-Artistry/Assets/gallary/1.jpg',
+  '/Priyasha-Makeup-Artistry/Assets/gallary/2.jpg',
+  '/Priyasha-Makeup-Artistry/Assets/gallary/3.jpg',
+  '/Priyasha-Makeup-Artistry/Assets/gallary/4.jpg',
+  '/Priyasha-Makeup-Artistry/Assets/gallary/5.jpg',
+  '/Priyasha-Makeup-Artistry/Assets/gallary/6.jpg',
+  '/Priyasha-Makeup-Artistry/Assets/gallary/7.jpg',
+  '/Priyasha-Makeup-Artistry/Assets/gallary/8.jpg',
+  '/Priyasha-Makeup-Artistry/Assets/gallary/9.jpg',
 ];
 
 function Counter({ value, duration = 2, suffix = "" }: { value: number, duration?: number, suffix?: string }) {
@@ -35,7 +35,7 @@ export default function Hero() {
   return (
     <section className="relative min-h-[80vh] bg-ivory md:bg-ivory flex items-stretch pt-20 pb-12 overflow-hidden">
       {/* Mobile Background Image & Overlay */}
-      <div className="absolute inset-0 w-full h-full md:hidden bg-[url('/Assets/free-photo-of-bride-and-groom-in-traditional-wedding-clothes-embracing-in-a-park.jpeg')] bg-cover bg-center z-0" />
+      <div className="absolute inset-0 w-full h-full md:hidden bg-[url('/Priyasha-Makeup-Artistry/Assets/free-photo-of-bride-and-groom-in-traditional-wedding-clothes-embracing-in-a-park.jpeg')] bg-cover bg-center z-0" />
       <div className="absolute inset-0 w-full h-full md:hidden bg-ivory/70 backdrop-blur-[2px] z-0" />
 
       <div className="max-w-[1440px] mx-auto grid grid-cols-1 md:grid-cols-[55%_45%] w-full relative z-10">

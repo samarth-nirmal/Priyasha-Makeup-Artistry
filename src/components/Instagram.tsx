@@ -31,9 +31,9 @@ export default function Instagram() {
         <div className="w-full mt-10 grid grid-cols-1 md:grid-cols-3 gap-8 px-4">
 
           {/* Reel 1 */}
-          <div onClick={() => setActiveVideo('/Assets/Reels/1.mp4')} className="w-full flex justify-center relative group cursor-pointer">
+          <div onClick={() => setActiveVideo('/Priyasha-Makeup-Artistry/Assets/Reels/1.mp4')} className="w-full flex justify-center relative group cursor-pointer">
             <video
-              src="/Assets/Reels/1.mp4#t=0.001"
+              src="/Priyasha-Makeup-Artistry/Assets/Reels/1.mp4#t=0.001"
               className="w-full max-w-[340px] aspect-[9/16] object-cover rounded-[1.5rem] shadow-lg border-2 border-champagne/20"
               muted playsInline preload="metadata"
             />
@@ -44,9 +44,9 @@ export default function Instagram() {
           </div>
 
           {/* Reel 2 */}
-          <div onClick={() => setActiveVideo('/Assets/Reels/2.mp4')} className="w-full flex justify-center relative group cursor-pointer">
+          <div onClick={() => setActiveVideo('/Priyasha-Makeup-Artistry/Assets/Reels/2.mp4')} className="w-full flex justify-center relative group cursor-pointer">
             <video
-              src="/Assets/Reels/2.mp4#t=0.001"
+              src="/Priyasha-Makeup-Artistry/Assets/Reels/2.mp4#t=0.001"
               className="w-full max-w-[340px] aspect-[9/16] object-cover rounded-[1.5rem] shadow-lg border-2 border-champagne/20"
               muted playsInline preload="metadata"
             />
@@ -57,9 +57,9 @@ export default function Instagram() {
           </div>
 
           {/* Reel 3 */}
-          <div onClick={() => setActiveVideo('/Assets/Reels/3.mp4')} className="w-full flex justify-center relative group cursor-pointer">
+          <div onClick={() => setActiveVideo('/Priyasha-Makeup-Artistry/Assets/Reels/3.mp4')} className="w-full flex justify-center relative group cursor-pointer">
             <video
-              src="/Assets/Reels/3.mp4#t=0.001"
+              src="/Priyasha-Makeup-Artistry/Assets/Reels/3.mp4#t=0.001"
               className="w-full max-w-[340px] aspect-[9/16] object-cover rounded-[1.5rem] shadow-lg border-2 border-champagne/20"
               muted playsInline preload="metadata"
             />
