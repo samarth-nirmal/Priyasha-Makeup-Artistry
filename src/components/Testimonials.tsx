@@ -46,9 +46,9 @@ export default function Testimonials() {
   return (
     <section id="testimonials" className="bg-cream section-padding overflow-hidden">
       <div className="max-w-[1280px] mx-auto px-6">
-
+        
         {/* Header */}
-        <motion.div
+        <motion.div 
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.2 }}
@@ -80,11 +80,11 @@ export default function Testimonials() {
                       <Star key={j} size={16} className="text-gold fill-gold" />
                     ))}
                   </div>
-
+                  
                   <blockquote className="text-burgundy font-display italic text-[22px] sm:text-[28px] md:text-[34px] leading-[1.4] font-light">
                     "{testimonials[currentIndex].quote}"
                   </blockquote>
-
+                  
                   <div className="mt-12 flex flex-col items-center">
                     <div className="w-12 h-px bg-gold/30 mb-6" />
                     <div className="text-burgundy font-sans text-[13px] font-semibold tracking-[0.2em] uppercase">
@@ -101,13 +101,13 @@ export default function Testimonials() {
 
           {/* Navigation Controls */}
           <div className="flex items-center justify-between w-full absolute top-1/2 -translate-y-1/2 -px-4 md:-px-20 pointer-events-none">
-            <button
+            <button 
               onClick={prev}
               className="pointer-events-auto p-3 rounded-full bg-white/50 backdrop-blur-sm border border-gold/20 text-gold hover:bg-gold hover:text-white transition-all duration-300 -translate-x-2 md:-translate-x-12"
             >
               <ChevronLeft size={24} />
             </button>
-            <button
+            <button 
               onClick={next}
               className="pointer-events-auto p-3 rounded-full bg-white/50 backdrop-blur-sm border border-gold/20 text-gold hover:bg-gold hover:text-white transition-all duration-300 translate-x-2 md:translate-x-12"
             >
@@ -121,8 +121,9 @@ export default function Testimonials() {
               <button
                 key={i}
                 onClick={() => setCurrentIndex(i)}
-                className={`w-1.5 h-1.5 rounded-full transition-all duration-300 ${i === currentIndex ? "w-6 bg-gold" : "bg-gold/20"
-                  }`}
+                className={`w-1.5 h-1.5 rounded-full transition-all duration-300 ${
+                  i === currentIndex ? "w-6 bg-gold" : "bg-gold/20"
+                }`}
               />
             ))}
           </div>
